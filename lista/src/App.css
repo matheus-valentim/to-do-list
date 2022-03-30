@@ -52,3 +52,11 @@ input[type="checkbox"] {
 	border: none;
 	cursor: pointer;
 }
+@media (max-width: 550px) {
+	.itemDiv {
+		width: 350px;
+	}
+	.container {
+		width: 350px;
+	}
+}

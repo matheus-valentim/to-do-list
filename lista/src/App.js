@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
 	const [texto, setTexto] = useState(null);
 	const [itens, setItens] = useState([]);
+	const [valor, setValor] = useState("");
 	const listHandler = (elemento) => {
 		setItens([...itens, elemento]);
 	};
@@ -14,12 +15,15 @@ function App() {
 				<form
 					onSubmit={(e) => {
 						listHandler(texto);
+						setValor("");
 						e.preventDefault();
 					}}
 				>
 					<input
+						value={valor}
 						onChange={(e) => {
 							setTexto(e.target.value);
+							setValor(e.target.value);
 						}}
 					></input>
 					<button>add</button>
