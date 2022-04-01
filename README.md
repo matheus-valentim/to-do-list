@@ -2,6 +2,10 @@
 
 > um projeto simples de uma todo-list em react
 
+## Teste aqui!
+Clique no link abaixo está a página para ver a aplicação!<br>
+<a target="_blank" href="https://todo-list-brown-ten.vercel.app/">Clique aqui!</a>
+
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
